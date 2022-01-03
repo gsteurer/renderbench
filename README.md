@@ -1,0 +1,2 @@
+# Renderbench
+Software implementations of raytracer from `The Ray Tracer Challenge - by Jamis Buck` and renderer from [ssloy's tinyrenderer](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started)

@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/*",
+                "~/Code/cpp_workbench/anvil/include/*"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Win32",
+            "windowsSdkVersion": "10.0.19041.0",
+            "includePath": [
+                "${workspaceFolder}\\*",
+                "${env:userprofile}\\Code\\cpp_workbench\\anvil\\include"
+            ],
+            "defines": [
+                "ENABLE_VALIDATION_LAYERS"
+            ],
+            "compilerPath": "${env:programfiles}\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
