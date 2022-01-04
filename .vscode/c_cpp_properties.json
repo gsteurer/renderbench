@@ -4,6 +4,7 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/*",
+                "${workspaceFolder}/include/*",
                 "~/Code/cpp_workbench/anvil/include/*"
             ],
             "defines": [],
