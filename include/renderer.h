@@ -5,7 +5,9 @@
 
 namespace renderer {
 
-void drawLines(anvil::file::tga::Image &image);
 void drawWireframe(anvil::file::tga::Image &image, const anvil::file::Mesh &mesh);
+void drawMesh(anvil::file::tga::Image &image, const anvil::file::Mesh &mesh);
+void drawSampleLines(anvil::file::tga::Image &image);
+void drawSampleTriangles(anvil::file::tga::Image &image);
 
 }  // namespace renderer

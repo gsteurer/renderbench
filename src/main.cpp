@@ -21,7 +21,9 @@ int main() {
     tga::Image image(width, height, sizeof(tga::Color));
     image.Clear(tga::Color(0, 0, 0, 1.0));
 
-    renderer::drawWireframe(image, mesh);
+    // renderer::drawWireframe(image, mesh);
+    renderer::drawMesh(image, mesh);
+    // renderer::drawSampleTriangles(image);
 
     if (auto status = image.WriteTGA("frame.tga"); !status)
         std::cerr << "failed to write image!" << std::endl;
